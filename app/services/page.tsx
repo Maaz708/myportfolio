@@ -1,6 +1,6 @@
 // app/services/page.tsx
 "use client";
-
+import React from 'react';
 import { motion } from 'framer-motion';
 import {
     Film,
@@ -13,6 +13,7 @@ import {
     SquareParkingIcon
 } from 'lucide-react';
 import { Card, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
+//import { ServicesOverview } from '@/components/sections/services-overview';
 
 const services = [
     {
@@ -47,7 +48,7 @@ const services = [
     },
 ];
 
-export function Services() {
+export default function ServicesOverview() {
     return (
         <section className="py-24 px-6 bg-gradient-to-r from-rose-500 to-purple-600">
             <div className="max-w-7xl mx-auto">
@@ -82,6 +83,7 @@ export function Services() {
                                     <CardDescription className="text-gray-600 text-center">{service.description}</CardDescription>
                                 </CardHeader>
                             </Card>
+
                         </motion.div>
                     ))}
                 </div>
@@ -91,12 +93,12 @@ export function Services() {
 }
 
 // Default export for the page
-const ServicesPage = () => {
+/*const ServicesOverview = () => {
     return (
         <div>
-            <Services />
+            <ServicesOverview />
         </div>
     );
 };
 
-export default ServicesPage;
+export default ServicesOverview;*/

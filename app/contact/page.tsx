@@ -65,8 +65,9 @@ export default function ContactPage() {
         >
           <div className="text-center">
             <h1 className="font-orbitron text-4xl md:text-5xl font-bold mb-6">Contact Me</h1>
-            <p className="text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-muted-foreground max-w-3xl mx-auto text-fuchsia-900">
               Let's discuss how we can work together
+              <p> Connect through my email for any buisness purpose</p>
             </p>
           </div>
 

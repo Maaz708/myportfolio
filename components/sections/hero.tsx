@@ -36,7 +36,7 @@ export function HeroSection() {
             <span className="text-2xl md:text-4xl">Software Engineer & Cybersecurity Enthusiast</span>
           </h1>
           <p className="mt-6 text-lg md:text-xl text-white max-w-3xl mx-auto  from-black">
-            Dedicated software engineering student specializing in cybersecurity, with expertise in Python development and system security.
+            Dedicated software engineering student specializing in cybersecurity tools and software development, with expertise in Python development, system security, Automation work with Gen AI and personal AI agents
           </p>
 
           <div className="mt-10 flex items-center justify-center gap-x-6">
@@ -62,14 +62,14 @@ export function HeroSection() {
               href="https://www.linkedin.com/in/mohd-maaz-1277121b1"
               target="_blank"
               rel="noopener noreferrer"
-              whileHover={{ scale: 1.1 }}
+              whileHover={{ scale: 2.1 }}
               className="text-black hover:text-cyan-500 transition-colors"
             >
               <LinkedinIcon className="h-6 w-6" />
             </motion.a>
             <motion.a
               href="mailto:maaz7084@gmail.com"
-              whileHover={{ scale: 1.1 }}
+              whileHover={{ scale: 2.1 }}
               className="text-black hover:text-cyan-500 transition-colors"
             >
               <MailIcon className="h-6 w-6" />
@@ -78,7 +78,7 @@ export function HeroSection() {
               href="https://github.com/maaz708"
               target="_blank"
               rel="noopener noreferrer"
-              whileHover={{ scale: 1.1 }}
+              whileHover={{ scale: 2.1 }}
               className="text-black hover:text-cyan-500 transition-colors"
             >
               <GithubIcon className="h-6 w-6" />

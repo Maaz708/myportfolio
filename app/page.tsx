@@ -2,7 +2,7 @@ import { HeroSection } from '@/components/sections/hero';
 import { SkillsOverview } from '@/components/sections/skills-overview';
 import { ProjectsSection } from '@/components/sections/projects';
 import { ExperienceSection } from '@/components/sections/experience';
-import { ServicesOverview } from '@/components/sections/services-overview';
+//import { ServicesOverview } from '@/components/sections/services-overview';
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
       <SkillsOverview />
       <ProjectsSection />
       <ExperienceSection />
-      <ServicesOverview />
+
     </div>
   );
 }

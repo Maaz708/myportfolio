@@ -35,11 +35,11 @@ const portfolioProjects = [
     title: 'Inspire Internship',
     description: 'Collaboration with groups in solving real world problems with innovative ideas.',
     icon: Database,
-    technologies: ['SQL', 'Database Security', 'Access Control'],
+    technologies: ['Time Management', 'Innovation', 'Creative skills'],
     details: [
-      'Implemented encryption protocols',
-      'Designed secure authentication system',
-      'Created backup and recovery procedures'
+      'Management of team related tasks',
+      'Implementation of innovative ideas',
+      'Creative thinking to solve real world problems'
     ]
   }
 ];

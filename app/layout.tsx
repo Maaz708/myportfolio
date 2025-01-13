@@ -5,7 +5,7 @@ import { ThemeProvider } from '@/components/theme-provider';
 import { Toaster } from '@/components/ui/toaster';
 import Header from '@/components/header';
 import Footer from '@/components/footer';
-import { ProjectProvider } from './context/ProjectContext';
+
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 const orbitron = Orbitron({ subsets: ['latin'], variable: '--font-orbitron' });
@@ -24,15 +24,15 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={`${inter.variable} ${orbitron.variable} font-sans`}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false}>
-          <ProjectProvider> {/* Wrap children with ProjectProvider */}
-            <div className="relative min-h-screen bg-gradient-to-b from-background to-background/95">
-              <div className="cyber-grid absolute inset-0 z-0" />
-              <Header />
-              <main className="relative z-10">{children}</main>
-              <Footer />
-            </div>
-            <Toaster />
-          </ProjectProvider>
+
+          <div className="relative min-h-screen bg-gradient-to-b from-background to-background/95">
+            <div className="cyber-grid absolute inset-0 z-0" />
+            <Header />
+            <main className="relative z-10">{children}</main>
+            <Footer />
+          </div>
+          <Toaster />
+
         </ThemeProvider>
       </body>
     </html>

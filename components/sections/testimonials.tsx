@@ -7,13 +7,13 @@ import { Quote } from 'lucide-react';
 
 const testimonials = [
   {
-    name: 'Prabhas Yadav',
+    name: 'Student 1',
     role: 'ISE Student',
     avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80',
     quote: 'The attention to detail and creative vision brought our project to life in ways we never imagined.',
   },
   {
-    name: 'Amir Khan',
+    name: 'Student 2',
     role: 'CSE student',
     avatar: 'https://images.unsplash.com/photo-1599566150163-29194dcaad36?w=100&q=80',
     quote: 'Professional, innovative, and incredibly talented. The final product exceeded all expectations.',

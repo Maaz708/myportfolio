@@ -59,7 +59,7 @@ export function SkillsOverview() {
             Technical Skills
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Comprehensive expertise in cybersecurity and software development
+            Comprehensive knowledge in cybersecurity tools and software development
           </p>
         </motion.div>
 

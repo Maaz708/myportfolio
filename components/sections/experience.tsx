@@ -26,6 +26,17 @@ const experiences = [
       'Collaborated with cross-functional teams',
       'Proposed and implemented creative security solutions'
     ]
+  },
+  {
+    title: 'Generative AI fo Educators',
+    company: 'By Google',
+    period: 'June 22, 2024',
+    location: 'Bangalore, India',
+    achievements: [
+      'Exploring generative AI tools for personal assistant',
+      'Discovering strategies for working with AI tools',
+      'Practice these tools to plan and update lessons, prepare instructional materials, manage administrative tasks and more. '
+    ]
   }
 ];
 
@@ -44,7 +55,7 @@ export function ExperienceSection() {
             Professional Experience
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Track record of success in cybersecurity and software development
+            Track record of success in cybersecurity with forensic tools for data mining and extraction and software development using AI&ML to develop websites and comprehensive study of No-code tools.
           </p>
         </motion.div>
 
