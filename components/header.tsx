@@ -80,7 +80,7 @@ export default function Header() {
         {mobileMenuOpen && (
           <div className="fixed inset-0 z-40 bg-black bg-opacity-50" onClick={() => setMobileMenuOpen(false)} />
         )}
-        <div className={`fixed inset-y-0 right-0 z-50 w-64 bg-white p-6 transform transition-transform ${mobileMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}>
+        <div className={`fixed inset-y-0 right-0 z-50 w-64 bg-azure p-6 transform transition-transform ${mobileMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}>
           <div className="flex justify-between items-center">
             <h2 className="text-lg font-bold">Menu</h2>
             <Button variant="ghost" onClick={() => setMobileMenuOpen(false)}>

@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { GithubIcon, LinkedinIcon, MailIcon } from 'lucide-react';
+import Link from 'next/link';
 
 export function HeroSection() {
   return (
@@ -51,10 +52,14 @@ export function HeroSection() {
               variant="outline"
               size="lg"
               className="border-fuchsia-500 text-fuchsia-500 hover:bg-fuchsia-500/10"
-              onClick={() => window.location.href = 'http://localhost:3000/contact'}
+            //onClick={() => window.location.href = '#app/contact'}
+
             >
-              Contact Me
+              <Link href="/contact">
+                Contact Me
+              </Link>
             </Button>
+
           </div>
 
           <div className="mt-12 flex justify-center gap-6">
@@ -85,7 +90,7 @@ export function HeroSection() {
             </motion.a>
           </div>
         </motion.div>
-      </div>
+      </div >
     </div >
   );
 }
