@@ -24,12 +24,12 @@ const skills = [
   },
   {
     title: 'Operating Systems',
-    description: 'Linux (Advanced), Windows, System Administration',
+    description: 'Linux , Windows',
     icon: Terminal,
   },
   {
     title: 'Databases',
-    description: 'MySQL, SQL Server, Database Security',
+    description: 'MySQL, SQL Server',
     icon: Database,
   },
   {
