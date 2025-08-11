@@ -27,10 +27,10 @@ export async function POST(req: Request) {
 
         const isProduction = process.env.NODE_ENV === 'production';
 
-        async function createVerifiedTransporter() {
+        const createVerifiedTransporter = async () => {
             const common = {
                 auth: { user: gmailUser, pass: gmailAppPassword },
-                pool: true,
+                pool: false, // Disable pooling to avoid timeout logs
                 logger: !isProduction,
                 debug: !isProduction,
                 connectionTimeout: 15000,
@@ -62,7 +62,7 @@ export async function POST(req: Request) {
                 await t587.verify();
                 return t587;
             }
-        }
+        };
 
         const transporter = await createVerifiedTransporter();
 
