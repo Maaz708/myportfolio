@@ -15,7 +15,7 @@ export default function AboutPage() {
         >
           <div className="text-center">
             <h1 className="font-orbitron text-4xl md:text-5xl font-bold mb-6">About Me</h1>
-            <p className="text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-muted-foreground max-w-3xl mx-auto text-white">
               A proactive Computer Science student specializing in cybersecurity and software development
             </p>
           </div>
@@ -28,7 +28,7 @@ export default function AboutPage() {
                   <li>
                     <h3 className="font-semibold">Bachelor of Engineering in Computer Science</h3>
                     <p className="text-muted-foreground">SEA College of Engineering, Bangalore</p>
-                    <p className="text-sm text-cyan-500">8.5 CGPA | Expected May 2025</p>
+                    <p className="text-sm text-cyan-500">8.5 CGPA | Graduated May 2025</p>
                   </li>
                   <li>
                     <h3 className="font-semibold">Intermediate School, CBSE Board</h3>

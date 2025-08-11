@@ -39,7 +39,7 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold mb-4">Contact</h3>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li>info@something.com</li>
+              <li>maaz7084@gmail.com</li>
               <li>+91 Confidential</li>
               <li>Bangalore, India</li>
             </ul>

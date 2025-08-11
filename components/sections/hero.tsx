@@ -5,25 +5,23 @@ import { Button } from '@/components/ui/button';
 import { GithubIcon, LinkedinIcon, MailIcon } from 'lucide-react';
 import Link from 'next/link';
 import Image from 'next/image';
+import Spline from '@splinetool/react-spline';
+
 
 export function HeroSection() {
   return (
     <div className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background Video */}
-      <video
-        className="absolute inset-0 w-full h-full object-cover"
-        autoPlay
-        loop
-        muted
-        playsInline
-      >
-        <source src="/racecar7.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+      {/* Spline 3D Robot Background */}
+      <div className="absolute inset-0 w-full h-full">
+        <Spline
+          scene="https://prod.spline.design/MwIjWnBz8q2hzhOe/scene.splinecode"
+          className="w-full h-full"
+        />
+      </div>
 
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0  from-background to-transparent z-10" />
-        <div className="cyber-grid absolute inset-0 opacity-20" />
+        <div className="absolute inset-0 bg-black/20 z-10" />
+        <div className="cyber-grid absolute inset-0 opacity-10" />
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 py-32">
@@ -36,7 +34,7 @@ export function HeroSection() {
             className="flex-shrink-0"
           >
             <div className="relative">
-              <div className="w-64 h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden border-4 border-cyan-500/30 shadow-2xl shadow-cyan-500/20">
+              <div className="w-44 h-44 lg:w-60 lg:h-60 rounded-full overflow-hidden border-4 border-cyan-500/30 shadow-2xl shadow-cyan-500/20">
                 <Image
                   src="/mypic.jpg"
                   alt="Mohd Maaz"
@@ -56,21 +54,25 @@ export function HeroSection() {
             initial={{ opacity: 0, x: 20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="text-center lg:text-left flex-1"
+            className="text-center lg:text-left flex-1 lg:ml-80"
           >
-            <h1 className="font-orbitron text-4xl md:text-6xl lg:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-fuchsia-800 mb-6">
-              Hi, I am Mohd Maaz
+            <h1 className="font-orbitron text-4xl md:text-4xl lg:text-5xl font-bold mb-4">
+              <span className="bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 bg-clip-text text-transparent animate-pulse">
+                Hi, I am Mohd Maaz
+              </span>
               <br />
-              <span className="text-2xl md:text-4xl">Software Engineer & Cybersecurity Enthusiast</span>
+              <span className="text-lg md:text-2xl bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500 bg-clip-text text-transparent">
+                Software Engineer & Cybersecurity Enthusiast
+              </span>
             </h1>
-            <p className="mt-6 text-lg md:text-xl text-white max-w-3xl mx-auto lg:mx-0  from-black">
+            <p className="mt-4 text-sm md:text-base text-transparent bg-gradient-to-r from-sky-300 via-blue-300 to-indigo-300 bg-clip-text max-w-2xl mx-auto lg:mx-0">
               Dedicated software engineering student specializing in cybersecurity tools and software development, with expertise in Python development, system security, Automation work with Gen AI and personal AI agents
             </p>
 
             <div className="mt-10 flex items-center justify-center lg:justify-start gap-x-6">
               <Button
                 size="lg"
-                className="bg-cyan-500 hover:bg-cyan-600 text-background"
+                className="bg-gradient-to-r from-cyan-500 to-purple-600 hover:from-cyan-600 hover:to-purple-700 text-white shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
                 onClick={() => window.location.href = '#projects'}
               >
                 View Projects
@@ -78,15 +80,12 @@ export function HeroSection() {
               <Button
                 variant="outline"
                 size="lg"
-                className="border-fuchsia-500 text-fuchsia-500 hover:bg-fuchsia-500/10"
-              //onClick={() => window.location.href = '#app/contact'}
-
+                className="border-2 border-transparent bg-gradient-to-r from-pink-500 to-orange-500 bg-clip-border text-white hover:from-pink-600 hover:to-orange-600 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
               >
                 <Link href="/contact">
                   Contact Me
                 </Link>
               </Button>
-
             </div>
 
             <div className="mt-12 flex justify-center lg:justify-start gap-6">
@@ -95,14 +94,14 @@ export function HeroSection() {
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 2.1 }}
-                className="text-black hover:text-cyan-500 transition-colors"
+                className="text-blue-400 hover:text-cyan-300 transition-all duration-300"
               >
                 <LinkedinIcon className="h-6 w-6" />
               </motion.a>
               <motion.a
                 href="mailto:maaz7084@gmail.com"
                 whileHover={{ scale: 2.1 }}
-                className="text-black hover:text-cyan-500 transition-colors"
+                className="text-red-400 hover:text-pink-300 transition-all duration-300"
               >
                 <MailIcon className="h-6 w-6" />
               </motion.a>
@@ -111,7 +110,7 @@ export function HeroSection() {
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 2.1 }}
-                className="text-black hover:text-cyan-500 transition-colors"
+                className="text-purple-400 hover:text-indigo-300 transition-all duration-300"
               >
                 <GithubIcon className="h-6 w-6" />
               </motion.a>
