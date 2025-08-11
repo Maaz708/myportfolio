@@ -28,7 +28,7 @@ const experiences = [
     ]
   },
   {
-    title: 'Generative AI fo Educators',
+    title: 'Generative AI for Educators',
     company: 'By Google',
     period: 'June 22, 2024',
     location: 'Bangalore, India',
