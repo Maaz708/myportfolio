@@ -13,15 +13,16 @@ import { Card, CardHeader, CardTitle, CardDescription } from '@/components/ui/ca
 
 const skills = [
   {
-    title: 'Security Tools',
-    description: 'Network Security Monitoring, Vulnerability Assessment, Security Automation',
-    icon: Shield,
-  },
-  {
-    title: 'Programming',
-    description: 'Python (Intermediate), SQL (Intermediate), Shell Scripting',
+    title: 'Backend Development',
+    description: 'Python, SQL (Intermediate), Django',
     icon: Code2,
   },
+  {
+    title: 'Web Development',
+    description: 'HTML, CSS, JavaScript, React',
+    icon: Code2,
+  },
+  
   {
     title: 'Operating Systems',
     description: 'Linux , Windows',
@@ -29,18 +30,19 @@ const skills = [
   },
   {
     title: 'Databases',
-    description: 'MySQL, SQL Server',
+    description: 'MySQL, PostgreSQL',
     icon: Database,
   },
-  {
-    title: 'System Administration',
-    description: 'Network Security, Access Control, Security Protocols',
-    icon: Server,
-  },
+  
   {
     title: 'Development Tools',
     description: 'VS Code, Git, Security Testing Tools',
     icon: GitBranch,
+  },
+  {
+    title: 'Security Tools',
+    description: 'Network Security Monitoring, Vulnerability Assessment, SIEM Tools',
+    icon: Shield,
   },
 ];
 
@@ -59,7 +61,7 @@ export function SkillsOverview() {
             Technical Skills
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Comprehensive knowledge in cybersecurity tools and software development
+            Comprehensive knowledge in Backend Development and Software Development.
           </p>
         </motion.div>
 
