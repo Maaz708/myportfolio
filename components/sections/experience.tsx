@@ -17,25 +17,58 @@ const experiences = [
     ]
   },
   {
-    title: 'Innovation Program',
-    company: 'Inspire Internship',
-    period: 'January 2018',
-    location: 'Bareily, India',
+    title: 'Introduction to Software Engineering',
+    company: 'IBM (Coursera)',
+    period: 'August 2025',
+    location: 'Bangalore, India',
     achievements: [
-      'Secured 2nd position for innovative cybersecurity solutions',
-      'Collaborated with cross-functional teams',
-      'Proposed and implemented creative security solutions'
+      'Studied software development life cycle methodologies.',
+      'Learned best practices for coding, testing, and maintenance.',
+      'Gained insights into agile and waterfall development models.'
     ]
   },
   {
-    title: 'Generative AI for Educators',
-    company: 'By Google',
+    title: 'Getting Started with Git and GitHub',
+    company: 'IBM (Coursera)',
+    period: 'September 2025',
+    location: 'Bangalore, India',
+    achievements: [
+      'Learned essential version control concepts with Git.',
+      'Managed and collaborated on projects using GitHub workflows.',
+      'Gained practical skills in branching, merging, and repository management. '
+    ]
+  },
+  {
+    title: 'Introduction to HTML, CSS, & JavaScript',
+    company: 'IBM (Coursera)',
+    period: 'September 2025',
+    location: 'Bangalore, India',
+    achievements: [
+      'Built responsive web pages using HTML and CSS.',
+      'Added interactivity and dynamic behavior with JavaScript.',
+      'Developed a foundational understanding of front-end web development.'
+    ]
+  },
+  {
+    title: 'Introduction to Cloud Computing',
+    company: 'IBM (Coursera)',
+    period: 'August, 2025',
+    location: 'Bangalore, India',
+    achievements: [
+      'Explored cloud service models and deployment options.',
+      'Learned about key cloud infrastructure components.',
+      'Understood benefits and challenges of cloud adoption.'
+    ]
+  },
+  {
+    title: 'Getting Started with DevOps on AWS',
+    company: 'IBM (Coursera)',
     period: 'June 22, 2024',
     location: 'Bangalore, India',
     achievements: [
-      'Exploring generative AI tools for personal assistant',
-      'Discovering strategies for working with AI tools',
-      'Practice these tools to plan and update lessons, prepare instructional materials, manage administrative tasks and more. '
+      'Mastered DevOps fundamentals and continuous integration/delivery (CI/CD) concepts.',
+      'Gained hands-on experience with AWS automation and infrastructure management.',
+      'Understood collaboration between development and operations teams for efficient deployments.'
     ]
   }
 ];
@@ -52,10 +85,10 @@ export function ExperienceSection() {
           className="text-center mb-16"
         >
           <h2 className="font-orbitron text-3xl md:text-4xl font-bold mb-4">
-            Professional Experience
+            Professional Certificates
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Track record of success in cybersecurity with forensic tools for data mining and extraction and software development using AI&ML to develop websites and comprehensive study of No-code tools.
+          I have a strong track record of building robust backend systems and web applications, leveraging technologies like Python, Django, JavaScript, React, and SQL. My experience includes designing scalable architectures, integrating RESTful APIs, working with databases, and implementing automation to improve efficiency. I am proficient in debugging, version control with Git and GitHub, and enjoy tackling real-world challenges through practical development projects.          </p>
           </p>
         </motion.div>
 
