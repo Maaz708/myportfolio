@@ -1,36 +1,41 @@
 "use client";
 
 import { motion } from 'framer-motion';
-import { Play, Terminal } from 'lucide-react';
+import { Play, Github } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 
 const projects = [
-  {
+ {
     title: 'Virtual Assistant with Nlp and Automation',
     category: 'Computer Science',
     thumbnail: 'https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&q=80',
     description: 'An Ai assistant which can help you with daily tasks and automate it.',
+    github: 'https://github.com/your-username/virtual-assistant',
   },
   {
-    title: 'Gaming Website',
+    title: 'Blog Website',
     category: 'Commercial',
     thumbnail: 'https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800&q=80',
-    description: 'Frontend creation of a gaming website.',
+    description: 'Django Web Application for blog website.',
+    github: 'https://github.com/Maaz708/Dew_on_Roses_django_blogproject1',
+    live: 'https://dew-on-roses.onrender.com/',
+
   },
-  {
+  /*{
     title: 'Fake news detector',
     category: 'News',
     thumbnail: 'https://images.unsplash.com/photo-1620121692029-d088224ddc74?w=800&q=80',
     description: 'AI driven web app for fake news detection.',
-  },
+    github: 'https://github.com/your-username/fake-news-detector',
+  },*/
   {
-    title: 'Cyber Autopsy',
+    title: 'Cyberforensic',
     category: 'Cybersecurity',
     thumbnail: 'cyber.png',
     description: 'Implemented cyber forensics for malware and file analysis.',
+    github: 'https://github.com/Maaz708/Cyberforensic',
   },
-
 ];
 
 export function FeaturedProjects() {
