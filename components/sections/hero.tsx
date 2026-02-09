@@ -62,12 +62,11 @@ export function HeroSection() {
               </span>
               <br />
               <span className="text-lg md:text-2xl bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500 bg-clip-text text-transparent">
-                Software Engineer & Cybersecurity Enthusiast
+                Software Engineer & Backend Developer
               </span>
             </h1>
             <p className="mt-4 text-sm md:text-base text-transparent bg-gradient-to-r from-sky-300 via-blue-300 to-indigo-300 bg-clip-text max-w-2xl mx-auto lg:mx-0">
-              Dedicated software engineering student specializing in cybersecurity tools and software development, with expertise in Python development, system security, Automation work with Gen AI and personal AI agents
-            </p>
+            Dedicated software engineering student specializing in backend development with strong expertise in Python, Django, and building scalable web applications. Experienced in system security, automation, and working with generative AI and personal AI agents to enhance software solutions.            </p>
 
             <div className="mt-10 flex items-center justify-center lg:justify-start gap-x-6">
               <Button
