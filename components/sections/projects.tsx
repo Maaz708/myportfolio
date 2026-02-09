@@ -5,11 +5,17 @@ import { Shield, Code, Terminal } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 
 const projects = [
-  {
+   {
     title: 'AI assistant Automation System',
     category: 'Virtual Assistant',
     icon: Shield,
     description: 'Developed using Python automation scripts for daily tasks.',
+  },
+  {
+    title: 'Dews on Roses Blog Website',
+    category: 'Web Development',
+    icon: Code,
+    description: 'Designed and implemented a web app for blog website using Django.',
   },
   {
     title: 'Cyber Autopsy',
@@ -17,12 +23,7 @@ const projects = [
     icon: Terminal,
     description: 'Implemented cyber forensics for malware and file analysis.',
   },
-  {
-    title: 'Fake News Detection',
-    category: 'Machine Learning',
-    icon: Code,
-    description: 'Designed and implemented a web app which can detect fake news using fastapi.',
-  },
+  
 ];
 
 export function ProjectsSection() {
@@ -40,7 +41,7 @@ export function ProjectsSection() {
             Featured Projects
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Showcasing my expertise in cybersecurity and software development
+            Showcasing my expertise in Backend Development and Software Development.
           </p>
         </motion.div>
 
