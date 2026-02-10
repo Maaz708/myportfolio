@@ -89,8 +89,7 @@ export function ExperienceSection() {
             Professional Certificates
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Track record of success in cybersecurity with forensic tools for data mining and extraction and software development using AI&ML to develop websites and comprehensive study of No-code tools.
-          </p>
+          Strong backend development experience focused on Python and Django, building reliable web applications with database integration, APIs, and intelligent features using AI/ML concepts.          </p>
         </motion.div>
 
         <div className="space-y-8">
