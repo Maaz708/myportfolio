@@ -88,7 +88,8 @@ export function ExperienceSection() {
             Professional Certificates
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-          I have a strong track record of building robust backend systems and web applications, leveraging technologies like Python, Django, JavaScript, React, and SQL. My experience includes designing scalable architectures, integrating RESTful APIs, working with databases, and implementing automation to improve efficiency. I am proficient in debugging, version control with Git and GitHub, and enjoy tackling real-world challenges through practical development projects.          </p>
+            Track record of success in cybersecurity with forensic tools for data mining and extraction and software development using AI&ML to develop websites and comprehensive study of No-code tools.
+          </p>
         </motion.div>
 
         <div className="space-y-8">

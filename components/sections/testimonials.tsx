@@ -5,17 +5,24 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 import { Quote } from 'lucide-react';
 
-const testimonials = [
+type Testimonial = {
+  name: string;
+  role: string;
+  quote: string;
+  avatar?: string;
+};
+
+const testimonials: Testimonial[] = [
   {
     name: 'Student 1',
     role: 'ISE Student',
-    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80',
+    /*avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80',*/
     quote: 'The attention to detail and creative vision brought our project to life in ways we never imagined.',
   },
   {
     name: 'Student 2',
     role: 'CSE student',
-    avatar: 'https://images.unsplash.com/photo-1599566150163-29194dcaad36?w=100&q=80',
+    /*avatar: 'https://images.unsplash.com/photo-1599566150163-29194dcaad36?w=100&q=80',*/
     quote: 'Professional, innovative, and incredibly talented. The final product exceeded all expectations.',
   },
   /*{

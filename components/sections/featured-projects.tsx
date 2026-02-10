@@ -1,27 +1,29 @@
 "use client";
 
 import { motion } from 'framer-motion';
-import { Play, Github } from 'lucide-react';
+
+import { Play, Github, ExternalLink } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 
 const projects = [
-  {
-    title: 'Virtual Assistant with Nlp and Automation',
-    category: 'Computer Science',
-    thumbnail: 'https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&q=80',
-    description: 'An Ai assistant which can help you with daily tasks and automate it.',
-    github: 'https://github.com/your-username/virtual-assistant',
-  },
   {
     title: 'Blog Website',
     category: 'Commercial',
     thumbnail: 'https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800&q=80',
     description: 'Django Web Application for blog website.',
     github: 'https://github.com/Maaz708/Dew_on_Roses_django_blogproject1',
-    live: 'https://dew-on-roses.onrender.com/',
+    externalLink: 'https://dew-on-roses.onrender.com/',
 
   },
+ {
+    title: 'Virtual Assistant with Nlp and Automation',
+    category: 'Computer Science',
+    thumbnail: 'https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&q=80',
+    description: 'An Ai assistant which can help you with daily tasks and automate it.',
+    github: 'https://github.com/Maaz708/Virtual_Assistant_with_nlp_and_automation',
+  },
+  
   /*{
     title: 'Fake news detector',
     category: 'News',
@@ -91,17 +93,30 @@ export function FeaturedProjects() {
                     <p className="text-muted-foreground text-sm">
                       {project.description}
                     </p>
-                    {project.github && (
-                      <a
-                        href={project.github}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center gap-2 mt-3 text-sm text-cyan-500 hover:text-cyan-400 transition-colors"
-                      >
-                        <Github className="h-4 w-4" />
-                        View on GitHub
-                      </a>
-                    )}
+                    <div className="flex flex-wrap gap-4 mt-3">
+                      {project.github && (
+                        <a
+                          href={project.github}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-2 text-sm text-cyan-500 hover:text-cyan-400 transition-colors"
+                        >
+                          <Github className="h-4 w-4" />
+                          View on GitHub
+                        </a>
+                      )}
+                      {project.externalLink && (
+                        <a
+                          href={project.externalLink}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-2 text-sm text-cyan-500 hover:text-cyan-400 transition-colors"
+                        >
+                          <ExternalLink className="h-4 w-4" />
+                          Visit site
+                        </a>
+                      )}
+                    </div>
                   </div>
                 </CardContent>
               </Card>
@@ -114,6 +129,7 @@ export function FeaturedProjects() {
             variant="outline"
             size="lg"
             className="border-cyan-500 text-cyan-500 hover:bg-cyan-500/10"
+            onClick={() => window.open('https://github.com/Maaz708', '_blank')}
           >
             View All Projects
           </Button>

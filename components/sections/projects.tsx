@@ -6,17 +6,18 @@ import { Card, CardContent } from '@/components/ui/card';
 
 const projects = [
   {
-    title: 'AI assistant Automation System',
-    category: 'Virtual Assistant',
-    icon: Shield,
-    description: 'Developed using Python automation scripts for daily tasks.',
-  },
-  {
     title: 'Dews on Roses Blog Website',
     category: 'Web Development',
     icon: Code,
     description: 'Designed and implemented a web app for blog website using Django.',
   },
+   {
+    title: 'AI assistant Automation System',
+    category: 'Virtual Assistant',
+    icon: Shield,
+    description: 'Developed using Python automation scripts for daily tasks.',
+  },
+ 
   {
     title: 'Cyber Autopsy',
     category: 'Cybersecurity',
@@ -41,7 +42,7 @@ export function ProjectsSection() {
             Featured Projects
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Showcasing my expertise in Backend Development and software development.
+          Showcasing my expertise in Backend Development and software development.
           </p>
         </motion.div>
 

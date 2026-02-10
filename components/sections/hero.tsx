@@ -68,6 +68,7 @@ export function HeroSection() {
             <p className="mt-4 text-sm md:text-base text-transparent bg-gradient-to-r from-sky-300 via-blue-300 to-indigo-300 bg-clip-text max-w-2xl mx-auto lg:mx-0">
             Dedicated software engineering student specializing in backend development with strong expertise in Python, Django, and building scalable web applications. Experienced in system security, automation, and working with generative AI and personal AI agents to enhance software solutions.            </p>
 
+
             <div className="mt-10 flex items-center justify-center lg:justify-start gap-x-6">
               <Button
                 size="lg"

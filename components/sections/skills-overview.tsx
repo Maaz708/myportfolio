@@ -62,6 +62,8 @@ export function SkillsOverview() {
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             Comprehensive knowledge in Backend Development and software development.
+
+
           </p>
         </motion.div>
 
