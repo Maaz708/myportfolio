@@ -16,7 +16,7 @@ export default function AboutPage() {
           <div className="text-center">
             <h1 className="font-orbitron text-4xl md:text-5xl font-bold mb-6">About Me</h1>
             <p className="text-muted-foreground max-w-3xl mx-auto text-white">
-              A proactive Computer Science student specializing in cybersecurity and software development
+              A proactive Computer Science student specializing in Backend Development and software development
             </p>
           </div>
 
@@ -46,10 +46,9 @@ export default function AboutPage() {
               <div>
                 <h2 className="font-orbitron text-2xl font-bold text-cyan-500 mb-4">Professional Summary</h2>
                 <p className="text-muted-foreground">
-                  A dedicated computer science student with a focus on cybersecurity and software development.
-                  Experienced in Python programming, SQL database management, and Linux system administration.
-                  Successfully completed the Google Cybersecurity certification program and demonstrated strong
-                  problem-solving abilities through innovative security solutions.
+                I’m a backend-focused developer specializing in Django and Python, with hands-on experience building production-ready web applications from scratch. I enjoy designing clean backend architectures, implementing secure authentication, managing databases, and deploying applications to real-world environments.
+
+I’ve worked on projects such as a Django-based blog platform and am currently exploring e-commerce systems, payment integrations, and AI-powered recommendation features. My development approach emphasizes scalability, security, and maintainability rather than just local demos.
                 </p>
               </div>
             </CardContent>

@@ -4,18 +4,7 @@ import { motion } from 'framer-motion';
 import { Card, CardContent } from '@/components/ui/card';
 
 const experiences = [
-  {
-    title: 'Google Cybersecurity Certification',
-    company: 'Google (Coursera)',
-    period: 'May 2024 – Oct 2024',
-    location: 'Bangalore, India',
-    achievements: [
-      'Developed and implemented Python-based security automation scripts',
-      'Mastered Linux security administration',
-      'Created automated security monitoring solutions',
-      'Conducted vulnerability assessments'
-    ]
-  },
+  
   {
     title: 'Introduction to Software Engineering',
     company: 'IBM (Coursera)',
@@ -69,6 +58,18 @@ const experiences = [
       'Mastered DevOps fundamentals and continuous integration/delivery (CI/CD) concepts.',
       'Gained hands-on experience with AWS automation and infrastructure management.',
       'Understood collaboration between development and operations teams for efficient deployments.'
+    ]
+  },
+  {
+    title: 'Google Cybersecurity Certification',
+    company: 'Google (Coursera)',
+    period: 'May 2024 – Oct 2024',
+    location: 'Bangalore, India',
+    achievements: [
+      'Developed and implemented Python-based security automation scripts',
+      'Mastered Linux security administration',
+      'Created automated security monitoring solutions',
+      'Conducted vulnerability assessments'
     ]
   }
 ];
